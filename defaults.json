@@ -1,0 +1,8 @@
+{
+	"NODE_ENV": "development",
+	"ENV": {
+		"redirectCode": 302,
+		"url": "https://robertsspaceindustries.com",
+		"passthru": false
+	}
+}
