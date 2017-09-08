@@ -5,7 +5,7 @@
 			"cert": "./public.pem"
 		},
 		"redirectCode": 302,
-		"url": "https://robertsspaceindustries.com/orgs/GCOSMOS",
+		"url": "https://robertsspaceindustries.com/orgs/STELLARE",
 		"passthru": true,
 		"special": [
 			{
