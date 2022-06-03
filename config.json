@@ -1,0 +1,28 @@
+{
+	"ENV": {
+		"ssl": {
+			"key": "./private.pem",
+			"cert": "./public.pem"
+		},
+		"redirectCode": 302,
+		"url": "https://robertsspaceindustries.com/orgs/STELLARE",
+		"passthru": true,
+		"special": [
+			{
+				"exact": "/forum",
+				"url": "https://robertsspaceindustries.com/spectrum/community/GCOSMOS",
+				"passthru": false
+			},
+			{
+				"exact": "/forum/",
+				"url": "https://robertsspaceindustries.com/spectrum/community/GCOSMOS",
+				"passthru": false
+			},
+			{
+				"begins": "/forum/",
+				"url": "https://robertsspaceindustries.com/spectrum/community/GCOSMOS",
+				"passthru": true
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nodeRedirect",
+  "version": "0.1.0",
+  "description": "A simple server to redirect to another url.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apocist/nodeRedirect.git"
+  },
+  "keywords": [],
+  "author": "Apocist <apocist@yahoo.com> (http://inverseinnovations.com/)",
+  "license": "LGPL-2.1",
+  "homepage": "http://inverseinnovations.com",
+  "dependencies": {
+    "nconf": "^0.8.4"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  }
+}
